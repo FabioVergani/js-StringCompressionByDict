@@ -1,0 +1,2 @@
+let s="_0 _1 _2";
+for(let m of ['a','b','c','etc'].entries()){s=s.replace(RegExp('_'+m[0],'gi'),m[1])};
